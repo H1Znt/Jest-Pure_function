@@ -4,8 +4,8 @@
   "description": "---",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "coverage": "jest --coverage",
+    "test": "jest ./src",
+    "coverage": "jest ./src --coverage",
     "lint": "eslint .",
     "build": "babel -d dist ./src"
   },
@@ -24,6 +24,7 @@
     "@babel/core": "^7.25.8",
     "@babel/preset-env": "^7.25.8",
     "eslint": "8.56",
+    "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-jest": "^28.8.3",
     "jest": "^29.7.0"
   },
