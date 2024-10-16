@@ -6,7 +6,8 @@
   "scripts": {
     "test": "jest",
     "coverage": "jest --coverage",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "build": "babel -d dist ./src"
   },
   "repository": {
     "type": "git",
