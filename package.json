@@ -4,8 +4,9 @@
   "description": "---",
   "main": "index.js",
   "scripts": {
-    "test": "jest --coverage",
-    "lint": "eslint ./src/js",
+    "test": "jest",
+    "coverage": "jest --coverage",
+    "lint": "eslint .",
     "build": "babel -d dist ./js"
   },
   "repository": {
